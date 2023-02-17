@@ -43,7 +43,9 @@ console.log(pricePerItem);   */
 */
 
 
-/* let productName = "Droid";
+/* 
+
+let productName = "Droid";
 let pricePerItem = 2000;
 
 // Change code below this line
@@ -52,7 +54,9 @@ productName = "Repair droid";
 pricePerItem = 2000 + 1500;
 
 console.log(productName);
-console.log(pricePerItem); */
+console.log(pricePerItem); 
+
+*/
 
 
 
@@ -80,7 +84,9 @@ isAdmin - буль false.
 
 
 
-/* let topSpeed = 160;
+/* 
+
+let topSpeed = 160;
 let distance = 617.54;
 const login = "mango935";
 const isOnline = true;
@@ -95,7 +101,9 @@ console.log(typeof(login));
 console.log(isOnline);
 console.log(typeof(isOnline));
 console.log(isAdmin);
-console.log(typeof(isAdmin)); */
+console.log(typeof(isAdmin)); 
+
+*/
 
 
 
@@ -117,13 +125,17 @@ console.log(typeof(isAdmin)); */
 */
 
 
-/* const pricePerItem = 3500;
+/*
+
+const pricePerItem = 3500;
 const orderedQuantity = 4;
 
 // Change code below this line
 const totalPrice = pricePerItem * orderedQuantity;
 
-console.log(totalPrice); */
+console.log(totalPrice);
+
+*/
 
 
 
@@ -144,14 +156,18 @@ console.log(totalPrice); */
 Значение переменной message это строка "You picked Droid, price per item is 3500 credits" 
 */
 
-/* const productName = "Droid";
+/* 
+
+const productName = "Droid";
 const pricePerItem = 3500;
 
 // Change code below this line
 
 const message = `You picked ${productName}, price per item is ${pricePerItem} credits`;
 
-console.log(message); */
+console.log(message); 
+
+*/
 
 
 
@@ -182,14 +198,18 @@ is included in total price."
 */
 
 
-/* let pricePerDroid = 800;
+/* 
+
+let pricePerDroid = 800;
 let orderedQuantity = 6;
 let deliveryFee = 50;
 const totalPrice  = pricePerDroid * orderedQuantity + deliveryFee;
 
 const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
 
-console.log(message); */
+console.log(message);
+
+*/
 
 
 
@@ -235,6 +255,7 @@ sayHi()
 */
 
 /*
+
 function add(a, b, c) {
   const result = a + b + c;
   console.log(`Addition result equals ${result}`);
@@ -243,16 +264,20 @@ function add(a, b, c) {
 add(15, 27, 10);
 add(10, 20, 30);
 add(5, 10, 15);
+
 */
 
 /* 
+
 function add(a, b, c) {
   console.log(`Addition result equals ${a + b + c}`);
 }
 
 add(15, 27, 10);
 add(10, 20, 30);
-add(5, 10, 15); */
+add(5, 10, 15); 
+
+*/
 
 
 
@@ -267,7 +292,9 @@ add(5, 10, 15); */
 Вызов add(5, 10, 15) возвращает 30
 Вызов функции со случайными, но валидными аргументами, возвращает правильное значение */
 
-/* function add(a, b, c) {
+/* 
+
+function add(a, b, c) {
   // Change code below this line
 return a + b +c;
   // Change code above this line
@@ -277,7 +304,9 @@ add(2, 5, 8); // 15
 
 console.log(add(15, 27, 10));
 console.log(add(10, 20, 30));
-console.log(add(5, 10, 15)); */
+console.log(add(5, 10, 15)); 
+
+*/
 
 
 /* -------------------- TASK 10 -------------------- */
@@ -302,7 +331,9 @@ name и price. Используй синтаксис шаблонных стро
 Вызов makeMessage('Reactor', 8000) возвращает "You picked Reactor, price per item is 8000 credits"
 Вызов makeMessage('Engine', 4070) возвращает "You picked Engine, price per item is 4070 credits" */
 
-/* function makeMessage (name, price) {
+/* 
+
+function makeMessage (name, price) {
   // Change code below this line
    const message = `You picked ${name}, price per item is ${price} credits`;
   // Change code above this line
@@ -312,7 +343,9 @@ name и price. Используй синтаксис шаблонных стро
 console.log(makeMessage('Radar', 6150));
 console.log(makeMessage('Scanner', 3500));
 console.log(makeMessage('Reactor', 8000));
-console.log(makeMessage('Engine', 4070)); */
+console.log(makeMessage('Engine', 4070)); 
+
+*/
 
 
 
@@ -334,7 +367,9 @@ pricePerItem - цена одной единицы товара.
 Вызов calculateTotalPrice(12, 70) возвращает 840
 Вызов функции со случайными, но валидными аргументами, возвращает правильное значение */
 
-/* function calculateTotalPrice (orderedQuantity, pricePerItem) {
+/* 
+
+function calculateTotalPrice (orderedQuantity, pricePerItem) {
   // Change code below this line
   const totalPrice = orderedQuantity * pricePerItem;
 
@@ -346,7 +381,9 @@ console.log(calculateTotalPrice(5, 100));
 console.log(calculateTotalPrice(8, 60));
 console.log(calculateTotalPrice(3, 400));
 console.log(calculateTotalPrice(1, 3500));
-console.log(calculateTotalPrice(12, 70));   */
+console.log(calculateTotalPrice(12, 70));  
+
+*/
 
 
 
@@ -369,7 +406,9 @@ deliveryFee - стоимость доставки
 Вызов makeOrderMessage(10, 70, 200) возвращает "You ordered droids worth 900 credits. Delivery (200 credits) is included in total price."
 */
 
-/* function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+/* 
+
+function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
   // Change code below this line
 
 const totalPrice = orderedQuantity * pricePerDroid + deliveryFee; 
@@ -382,7 +421,9 @@ const message = `You ordered droids worth ${totalPrice} credits. Delivery (${del
 
 console.log(makeOrderMessage(2, 100, 50));
 console.log(makeOrderMessage(3, 300, 100));
-console.log(makeOrderMessage(10, 70, 200)); */
+console.log(makeOrderMessage(10, 70, 200)); 
+
+*/
 
 
 
@@ -397,7 +438,9 @@ console.log(makeOrderMessage(10, 70, 200)); */
 Вызов isAdult(8) возвращает false
 Вызов isAdult(37) возвращает true */
 
-/* function isAdult(age) {
+/*
+
+function isAdult(age) {
   // Change code below this line
   const passed = age >= 18;
 
@@ -407,7 +450,9 @@ console.log(makeOrderMessage(10, 70, 200)); */
 
 console.log(isAdult(20));
 console.log(isAdult(14));
-console.log(isAdult(8)); */
+console.log(isAdult(8));
+
+*/
 
 
 
@@ -423,7 +468,9 @@ console.log(isAdult(8)); */
 Вызов isValidPassword("kiwirul3z") возвращает false
 Вызов isValidPassword("jqueryismyjam") возвращает true */
 
-/* function isValidPassword(password) {
+/* 
+
+function isValidPassword(password) {
   const SAVED_PASSWORD = 'jqueryismyjam';
   // Change code below this line
   const isMatch = SAVED_PASSWORD === password;
@@ -434,7 +481,9 @@ console.log(isAdult(8)); */
 
 console.log(isValidPassword('mangodab3st'));
 console.log(isValidPassword('kiwirul3z'));
-console.log(isValidPassword('jqueryismyjam')); */
+console.log(isValidPassword('jqueryismyjam'));
+
+*/
 
 
 
@@ -451,7 +500,9 @@ console.log(isValidPassword('jqueryismyjam')); */
 Вызов checkAge(14) возвращает "You are a minor"
 Вызов checkAge(38) возвращает "You are an adult" */
 
-/* function checkAge(age) {
+/* 
+
+function checkAge(age) {
   let message;
 
   if (age >= 18) { // Change this line
@@ -467,6 +518,7 @@ console.log(checkAge(20));
 console.log(checkAge(8));
 console.log(checkAge(14));
 console.log(checkAge(38));
+
 */
 
 
